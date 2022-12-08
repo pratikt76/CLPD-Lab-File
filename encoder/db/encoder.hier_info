@@ -1,0 +1,9 @@
+|encoder
+a => comb.IN0
+b => comb.IN1
+c => comb.IN0
+d => comb.IN1
+z1 << comb.DB_MAX_OUTPUT_PORT_TYPE
+z2 << comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

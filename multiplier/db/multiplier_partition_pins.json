@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "eqz",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "datain[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ldb",
+					"strict" : false
+				},
+				{
+					"name" : "decb",
+					"strict" : false
+				},
+				{
+					"name" : "datain[11]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[2]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[1]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[0]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[3]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[4]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[6]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[7]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[8]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[9]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[10]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[12]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[13]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[14]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,6 @@
+|comparator
+a => LessThan0.IN1
+b => LessThan0.IN2
+out <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+

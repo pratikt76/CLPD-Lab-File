@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/College/Sem_5/CLPD/ring_counter/simulation/modelsim
+vd_ff
+Z1 !s110 1670427618
+!i10b 1
+!s100 8Ag5hQl>1<1LA;LGlnEIM1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ik7GOiI6C3QRYKiSM>IiM@0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1670420864
+8E:/College/Sem_5/CLPD/ring_counter/d_ff.v
+FE:/College/Sem_5/CLPD/ring_counter/d_ff.v
+!i122 0
+L0 1 13
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1670427618.000000
+!s107 E:/College/Sem_5/CLPD/ring_counter/d_ff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/College/Sem_5/CLPD/ring_counter|E:/College/Sem_5/CLPD/ring_counter/d_ff.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+E:/College/Sem_5/CLPD/ring_counter
+Z8 tCvgOpt 0
+vring_counter
+R1
+!i10b 1
+!s100 NGcZm]W0S=G_HnfhI]L^m2
+R2
+IjYgZgXkH?95z1D7UmFOF>2
+R3
+R0
+w1670420863
+8E:/College/Sem_5/CLPD/ring_counter/ring_counter.v
+FE:/College/Sem_5/CLPD/ring_counter/ring_counter.v
+!i122 1
+L0 1 11
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/College/Sem_5/CLPD/ring_counter/ring_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/College/Sem_5/CLPD/ring_counter|E:/College/Sem_5/CLPD/ring_counter/ring_counter.v|
+!i113 1
+R6
+R7
+R8
+vring_test
+!s110 1670427619
+!i10b 1
+!s100 oVTLie1X94@0z_F48jbd20
+R2
+I5:C;IoaM1jP@THfe?hU_M2
+R3
+R0
+w1670421276
+8E:/College/Sem_5/CLPD/ring_counter/ring_test.v
+FE:/College/Sem_5/CLPD/ring_counter/ring_test.v
+!i122 2
+L0 1 24
+R4
+r1
+!s85 0
+31
+!s108 1670427619.000000
+!s107 E:/College/Sem_5/CLPD/ring_counter/ring_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/College/Sem_5/CLPD/ring_counter|E:/College/Sem_5/CLPD/ring_counter/ring_test.v|
+!i113 1
+R6
+R7
+R8

@@ -1,0 +1,15 @@
+module shift_reg(a, clk, reset, z);
+	input clk, reset;
+	input [2:0]a;
+	output reg z;
+	
+	always @(posedge clk)
+		begin
+			if(!reset)
+				a = a+1;
+				z=a;
+			else
+				a=3'b000;
+				z=a;
+		end
+endmodule

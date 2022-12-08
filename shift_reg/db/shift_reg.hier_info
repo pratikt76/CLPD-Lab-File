@@ -1,0 +1,9 @@
+|shift_reg
+a => b.DATAIN
+clk => b.CLK
+clk => c.CLK
+clk => d.CLK
+clk => z~reg0.CLK
+z << z~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/CLPD/counter/simulation/modelsim
+vcounter
+!s110 1670435352
+!i10b 1
+!s100 N?DA_l@DkeUR4gLXf4a1;2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ihb;Y?[W57n4T<`D3Q[:Sk0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1670434715
+8D:/CLPD/counter/counter.v
+FD:/CLPD/counter/counter.v
+!i122 0
+L0 1 16
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1670435352.000000
+!s107 D:/CLPD/counter/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CLPD/counter|D:/CLPD/counter/counter.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/CLPD/counter
+Z7 tCvgOpt 0
+vcounter_test
+!s110 1670435353
+!i10b 1
+!s100 eSONDO_?>6jC7VO[<zDW<2
+R1
+IAhR1g]^V;1mV5?PKHP2E40
+R2
+R0
+w1670435221
+8D:/CLPD/counter/counter_test.v
+FD:/CLPD/counter/counter_test.v
+!i122 1
+L0 1 25
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CLPD/counter/counter_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CLPD/counter|D:/CLPD/counter/counter_test.v|
+!i113 1
+R5
+R6
+R7

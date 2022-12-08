@@ -1,0 +1,61 @@
+# Reading pref.tcl
+# do ring_counter_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/College/Sem_5/CLPD/ring_counter {E:/College/Sem_5/CLPD/ring_counter/d_ff.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:10:18 on Dec 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/College/Sem_5/CLPD/ring_counter" E:/College/Sem_5/CLPD/ring_counter/d_ff.v 
+# -- Compiling module d_ff
+# 
+# Top level modules:
+# 	d_ff
+# End time: 21:10:18 on Dec 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/College/Sem_5/CLPD/ring_counter {E:/College/Sem_5/CLPD/ring_counter/ring_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:10:18 on Dec 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/College/Sem_5/CLPD/ring_counter" E:/College/Sem_5/CLPD/ring_counter/ring_counter.v 
+# -- Compiling module ring_counter
+# 
+# Top level modules:
+# 	ring_counter
+# End time: 21:10:18 on Dec 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/College/Sem_5/CLPD/ring_counter {E:/College/Sem_5/CLPD/ring_counter/ring_test.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:10:19 on Dec 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/College/Sem_5/CLPD/ring_counter" E:/College/Sem_5/CLPD/ring_counter/ring_test.v 
+# -- Compiling module ring_test
+# 
+# Top level modules:
+# 	ring_test
+# End time: 21:10:19 on Dec 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ring_test
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" ring_test 
+# Start time: 21:10:19 on Dec 07,2022
+# Loading work.ring_test
+# Loading work.ring_counter
+# Loading work.d_ff
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 21:11:10 on Dec 07,2022, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0

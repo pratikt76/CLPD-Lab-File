@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/CLPD/encoder/simulation/modelsim
+vencoder
+Z1 !s110 1670436840
+!i10b 1
+!s100 40czNCXPjNK@HQH2JmYi>1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IjA@gYCI[Ah>ib^I6Bn^kA0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1670435799
+8D:/CLPD/encoder/encoder.v
+FD:/CLPD/encoder/encoder.v
+!i122 0
+L0 1 9
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1670436840.000000
+!s107 D:/CLPD/encoder/encoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CLPD/encoder|D:/CLPD/encoder/encoder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+D:/CLPD/encoder
+Z8 tCvgOpt 0
+vencoder_test
+R1
+!i10b 1
+!s100 UOGKD[A]G95_`n30eKLSI1
+R2
+I^MVWcZFIk:6]QPW[XjADa2
+R3
+R0
+w1670436690
+8D:/CLPD/encoder/encoder_test.v
+FD:/CLPD/encoder/encoder_test.v
+!i122 1
+L0 1 39
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/CLPD/encoder/encoder_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CLPD/encoder|D:/CLPD/encoder/encoder_test.v|
+!i113 1
+R6
+R7
+R8

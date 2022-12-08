@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at vending_machine.v(6): object "Y" differs only in case from object "y" in the same scope File: E:/College/Sem_5/CLPD/vending_machine/vending_machine.v Line: 6
+Info (10281): Verilog HDL Declaration information at vending_machine.v(3): object "a" differs only in case from object "A" in the same scope File: E:/College/Sem_5/CLPD/vending_machine/vending_machine.v Line: 3
+Info (10281): Verilog HDL Declaration information at vending_machine.v(3): object "b" differs only in case from object "B" in the same scope File: E:/College/Sem_5/CLPD/vending_machine/vending_machine.v Line: 3
+Info (10281): Verilog HDL Declaration information at vending_machine.v(3): object "c" differs only in case from object "C" in the same scope File: E:/College/Sem_5/CLPD/vending_machine/vending_machine.v Line: 3

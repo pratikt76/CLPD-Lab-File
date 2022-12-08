@@ -1,0 +1,11 @@
+module mux4to1(a, b, c, d, s,z);
+	input a, b, c, d, s;
+	output z;
+	parameter[1:0]s s1:2'b00, s2: 2'b01, s3: 2'b10, s4: 2'b11; 
+	case(s)
+		s1: z=a;
+		s2: z=b;
+		s3: z=c;
+		s4: z=d;
+	endcase
+endmodule

@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/College/Sem_5/CLPD/vending_machine/simulation/modelsim
+vvending_machine
+Z1 !s110 1670427785
+!i10b 1
+!s100 XgQ@=@8kYNL2TIiUhFC=S2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRi8=dm=RooQC?oNkzFjNQ2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1670426272
+8E:/College/Sem_5/CLPD/vending_machine/vending_machine.v
+FE:/College/Sem_5/CLPD/vending_machine/vending_machine.v
+!i122 0
+L0 1 161
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1670427785.000000
+!s107 E:/College/Sem_5/CLPD/vending_machine/vending_machine.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/College/Sem_5/CLPD/vending_machine|E:/College/Sem_5/CLPD/vending_machine/vending_machine.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+E:/College/Sem_5/CLPD/vending_machine
+Z8 tCvgOpt 0
+vvending_test
+R1
+!i10b 1
+!s100 PBYocDZm[EFnDhVZFDYQ`3
+R2
+IZznQkgB_bc@L:mSGzAH2N3
+R3
+R0
+w1670426389
+8E:/College/Sem_5/CLPD/vending_machine/vending_test.v
+FE:/College/Sem_5/CLPD/vending_machine/vending_test.v
+!i122 1
+L0 1 53
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/College/Sem_5/CLPD/vending_machine/vending_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/College/Sem_5/CLPD/vending_machine|E:/College/Sem_5/CLPD/vending_machine/vending_test.v|
+!i113 1
+R6
+R7
+R8

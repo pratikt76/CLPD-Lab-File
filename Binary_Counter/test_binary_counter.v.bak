@@ -1,0 +1,11 @@
+module test_binary_counter;
+	wire out;
+	reg clk, reset;
+	
+	binary_counter b(.clk(clk), .reset(reset), .out(out));
+	initial begin
+		clk = 1;
+		forever #10
+		clk = ~clk;
+		end
+endmodule

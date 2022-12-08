@@ -1,0 +1,120 @@
+module vendingmachine(w,z,clk,reset,change);
+input reset,clk;
+input [2:1]w;
+output z,change;
+reg [2:0] change;
+reg [2:0]y,Y;
+parameter [3:1] A=3'b000 ,B=3'b001, C=3'b010,D=3'b011,E=3'b100,F=3'B101;
+parameter [3:1] zero=2'b000,five=2'b001,ten=2'b010,fifteen=2'b011,twenty=2'b100,twenty_five=3'b101;
+always@(w,y)
+begin
+	case(y)
+
+
+		A:if(w==2'b00)
+			begin
+				Y<=A;
+				change<=zero;
+			end
+		else if (w==2'b01)
+			begin
+				Y<=B;
+				change<=zero;
+			end
+		else if(w==2'b10)
+			begin
+				Y<=C;
+				change<=zero;
+			end
+		else if(w==2'b11)
+			begin
+				Y<=F;
+				change<=zero;
+			end
+
+		B:if(w==2'b01)
+			begin
+				Y<=C;
+				change<=zero;
+			end
+		else if (w==2'b10)
+			begin
+				Y<=D;
+				change<=zero;
+			end
+		else if(w==2'b11)
+			begin
+				Y<=F;
+				change<=five;
+			end
+		else 
+			begin
+				Y<=B;
+			end
+
+		C:if (w==2'b01)
+			begin
+				Y<=D;
+				change<=zero;
+			end
+		else if (w==2'b10)
+			begin
+				Y<=E;
+				change<=zero;
+			end
+		else if(w==2'b11)
+			begin
+				Y<=F;
+				change<=five;
+			end
+		else 
+			begin
+				Y<=C;
+			end
+
+		D:if(w==2'b01)
+			begin
+				Y<=E;
+				change<=zero;
+			end
+		else if (w==2'b10)
+			begin
+				Y<=F;
+				change<=fifteen;
+			end
+		else if(w==2'b11)
+			begin
+				Y<=D;
+			end
+
+
+		E:if(w==2'b01)
+			begin
+				Y<=F;
+				change<=zero;
+			end
+		else if (w==2'b10)
+			begin
+				Y<=F;
+				change<=twenty;
+			end
+		else if(w==2'b11)
+			begin
+				Y<=E;
+			end
+
+
+		F:if(w==2'b00)
+			begin
+				Y<=A;
+				change<=zero;
+			end
+	
+		default:
+			begin
+				Y<=3'bxxx;
+			end
+	endcase
+end
+	
+endmodule

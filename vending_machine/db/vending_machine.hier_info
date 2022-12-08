@@ -1,0 +1,16 @@
+|vending_machine
+a => always1.IN0
+a => always1.IN0
+a => always1.IN0
+b => always1.IN1
+b => always1.IN1
+b => always1.IN1
+c => always1.IN1
+c => always1.IN1
+c => always1.IN1
+clk => y~1.DATAIN
+reset => y~3.DATAIN
+change << Selector7.DB_MAX_OUTPUT_PORT_TYPE
+bottle << <VCC>
+
+
